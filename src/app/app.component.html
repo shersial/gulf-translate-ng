@@ -28,12 +28,14 @@
     <h3>Translations with parameters</h3>
 
     <h4>Pipe</h4>
+
     <!-- translation: translation pipe -->
     <p>{{ 'demo.greeting' | translate:{'name':'Andreas'} }}</p>
 
     <h4>Directive: key as attribute</h4>
     <!-- translation: directive (key as attribute) -->
     <p [translate]="'demo.greeting'" [translateParams]="{name: 'Andreas'}"></p>
+
 
     <h4>Directive: key as content</h4>
     <!-- translation: directive (key as content of element)-->
@@ -49,5 +51,6 @@
     <button (click)="useLanguage('ar')">ar</button>
 
 </div>
+
 
 <router-outlet></router-outlet>

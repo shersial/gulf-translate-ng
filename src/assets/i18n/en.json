@@ -1,3 +1,4 @@
+
 {
   "demo.greeting": "Hallo {{name}}!",
   "demo.text": "This is a simple application to demonstrate the functions of ngx-transalte.",
