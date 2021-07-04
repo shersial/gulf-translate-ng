@@ -31,7 +31,6 @@
 
     <!-- translation: translation pipe -->
     <p>{{ 'demo.greeting' | translate:{'name':'Andreas'} }}</p>
-
     <h4>Directive: key as attribute</h4>
     <!-- translation: directive (key as attribute) -->
     <p [translate]="'demo.greeting'" [translateParams]="{name: 'Andreas'}"></p>
@@ -48,7 +47,7 @@
     <h3>Switching languages at runtime</h3>
 
     <button (click)="useLanguage('en')">en</button>3
-  
+
     <button (click)="useLanguage('ar')">ar</button>
 
 </div>
