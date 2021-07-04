@@ -1,0 +1,6 @@
+{
+  "demo.greeting": "{{name}}!مرحبا",
+  "demo.text": "هذا تطبيق توضيحي بسيط لـ ngx-translate",
+  "demo.text-in-code": "الترجمة المستخدمة من التعليمات البرمجية",
+  "demo.title": "عرض الترجمة"
+}
